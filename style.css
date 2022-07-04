@@ -2,14 +2,18 @@ html {
     background-color: antiquewhite;
 }
 
-.about-me {
-    background: linear-gradient(45deg, black, black, red);
-    color: white;
+.block {
     margin: 1vh;
     padding: 5px;
     height: 95vh;
+    width: 95vw;
     border: 5px solid black;
     border-radius: 5px;
+}
+
+.about-me {
+    background: linear-gradient(45deg, black, black, red);
+    color: white;
 }
 
 .about-me-text {
@@ -36,9 +40,15 @@ html {
 
 .github {
     background-color: #666;
-    margin: 1vh;
-    padding: 5px;
-    height: 95vh;
-    border: 5px solid black;
-    border-radius: 5px;
+    display: table;
+    text-align: center;
+}
+
+.github-qr {
+    display: table-cell;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
