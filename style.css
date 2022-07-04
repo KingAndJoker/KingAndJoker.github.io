@@ -3,6 +3,8 @@ html {
 }
 
 .about-me {
+    background: linear-gradient(45deg, black, black, red);
+    color: white;
     margin: 1vh;
     padding: 5px;
     height: 95vh;
@@ -30,4 +32,13 @@ html {
     height: 60vh;
     margin-right: 15vw;
     margin-top: 5vw;
+}
+
+.github {
+    background-color: #666;
+    margin: 1vh;
+    padding: 5px;
+    height: 95vh;
+    border: 5px solid black;
+    border-radius: 5px;
 }
