@@ -1,5 +1,15 @@
+@font-face {
+    font-family: "myFont";
+    src: url("font/LeagueGothic-Regular.woff");
+}
+
 html {
     background-color: antiquewhite;
+}
+
+.name {
+    font-size: 72px;
+    font-family: 'myFont', Courier, monospace;
 }
 
 .block {
@@ -36,6 +46,30 @@ html {
     height: 60vh;
     margin-right: 15vw;
     margin-top: 5vw;
+}
+
+.about-me-link a {
+    font-size: 24px;
+}
+
+.about-me-link a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.about-me-link a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.about-me-link a:hover {
+    color: linen;
+    text-decoration: underline;
+}
+
+.about-me-link a:active {
+    color: linen;
+    text-decoration: underline;
 }
 
 .github {
