@@ -52,22 +52,22 @@ html {
     font-size: 24px;
 }
 
-.about-me-link a:link {
+a:link {
     text-decoration: none;
     color: white;
 }
 
-.about-me-link a:visited {
+a:visited {
     text-decoration: none;
     color: white;
 }
 
-.about-me-link a:hover {
+a:hover {
     color: linen;
     text-decoration: underline;
 }
 
-.about-me-link a:active {
+a:active {
     color: linen;
     text-decoration: underline;
 }
@@ -79,6 +79,36 @@ html {
 }
 
 .github-qr {
+    display: table-cell;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mail {
+    background-color: #ff4343;
+    display: table;
+    text-align: center;
+}
+
+.mail-qr {
+    display: table-cell;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vk {
+    background-color: #0077ff;
+    display: table;
+    text-align: center;
+}
+
+.vk-qr {
     display: table-cell;
     vertical-align: middle;
     align-items: center;
